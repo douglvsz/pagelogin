@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    min-height: 100vh;
+}
+.left-login{
+    flex: 1;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.left-login img{
+    width: 500px;
+}
+.right-login{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid var(--alternative-color);
+    padding: 60px;
+    border-radius: 20px;
+}
+.card-login h2{
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.form-login{
+    display: flex;
+    flex-direction: column;
+}
+.form-login input{
+    width: 100%;
+    padding: 10px;
+    margin: .2rem 0;
+    background: transparent;
+    border: 1px solid var(--text-color);
+    color: #fff;
+    outline: none;
+    border-radius: 10px;
+}
+.card-login p,
+a{
+    font-size: .8rem;
+}
+.btn{
+    display: inline-block;
+    margin: .8rem;
+    height: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    background: var(--alternative-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    letter-spacing: .1rem;
+    opacity: .8;
+    transition: .3s;
+    border-radius: 5px;
+}
+.btn:hover{
+    letter-spacing: 0;
+    opacity: 1;
+}
+.bx{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: .5rem;
+    border-radius: 50%;
+    background: var(--alternative-color);
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+.bxl-github:hover{
+    background: #fff;
+    color: #000;
+}
+.bxl-google:hover{
+    background: #fff;
+    color: #ff0000;
+}
+.bxl-facebook-circle:hover{
+    background: #fff;
+    color: blue;
+}
